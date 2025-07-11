@@ -1,0 +1,77 @@
+.my-font{
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
+body{
+    background-color: #f5f8ff;
+    margin:  auto;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+button{
+    border: none;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 123, 8);
+    transition: 0.5s;
+    box-shadow: 5px 5px 1px rgb(217, 213, 213);
+}
+/* primary class*/
+
+.primary-btn{
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.logo{
+    color: #4e47ff;
+    font-size: 50px;
+}
+/* nav section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    padding: 10px 20px;
+    height: 40px;
+    margin: 20px 40px;
+}
+.logo1{
+    text-align: center;
+    margin: 10px 40px;
+}
+.banner-main{
+    height: 400px;
+    padding: 30px 40px;
+    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    text-align: center;
+    
+}
+.baner{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.baner h1{
+    margin-top: 100px;
+    font-size: 40px;
+    width: 500px;
+}
+.bn-btn{
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    padding: 10px 15px;
+    display: block;
+}
