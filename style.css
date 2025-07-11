@@ -53,7 +53,7 @@ nav{
 .banner-main{
     height: 400px;
     padding: 30px 40px;
-    background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-image: url(/Assets/Hero-bg.png);
     text-align: center;
     
 }
@@ -74,4 +74,233 @@ nav{
 .btn2{
     padding: 10px 15px;
     display: block;
+}
+/------action section-----/
+.act{
+    display: flex;
+    justify-content: center;
+}
+.action{
+    width: 600px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.act-dis{
+    display: flex;
+    gap: 110px;
+}
+.ac-head p{
+    font-size: 14 px;
+    color:gray ;
+}
+.btn3{
+    padding: 10px 20px;
+}
+.ac-img{
+    height: 170px;
+    width: 180px;
+    border-radius: 20%;
+}
+/----follower section----/
+.flo{
+    display: flex;
+    justify-content: center;
+}
+.follower{
+    width: 600px;
+    background-color: #e5e7ff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0px 50px;
+
+}
+.user-main{
+    display: flex;
+    justify-content: space-around;
+}
+.user h1{
+    color: #4E47FF;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.user p{
+    font-size: 12px;
+    color: grey;
+}/-----card section-----/
+.cd-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card-nain{
+    width: 600px;
+    margin: 0px 50px;
+}
+.card-main h1{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+.card-inner{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.star1{
+    height: 10px;
+    margin-bottom: 0px;
+}
+.card h4{
+    font-size: 18px;
+    margin: 0px 5px;
+}
+.card p{
+    font-size: 10px;
+    margin: 5px;
+    color: grey;
+    padding: 0px 20px 0px 0px;
+}
+.card-img-set{
+    display: flex;
+}
+.com-dit h5{
+    margin: 5px;
+    padding: 0px;
+    color: rgb(43, 41, 41);
+    font-weight: 100;
+}
+.com-dit p{
+    margin: 5px;
+    padding: 0px;
+    color: grey;
+}
+.card-img1{
+    border-radius: 50%;
+    height: 30px;
+    margin-top: 5px;
+}
+.card:hover{
+    box-shadow: 8px 5px 2px rgb(238, 238, 238);
+    background-color: rgb(227, 239, 255);
+    transition: 0.5s;
+}
+/-----focus section----/
+.fc-main{
+    display: flex;
+    justify-content: center;
+}
+.focus{
+    background-color: white;
+    text-align: center;
+    padding: 30px 50px;
+    width: 600px;
+    margin: 20px 50px; 
+    border-radius: 20px;
+
+}
+.focus h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.focus p{
+    font-size: 12px;
+    margin: 10px;
+    color: gray;
+}
+.focus-btn{
+    
+    text-align: center;
+    padding: 10px 24px;
+    margin-bottom: 20px;
+}
+.focus-img{
+    height: 220px;
+    width: 500px;
+    border-radius: 20px;
+}
+/----form section---/
+.frm-main{
+    display: flex;
+    justify-content: center;
+}
+.form-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 50px 20px;
+}
+.form input{
+    margin: 5px;
+}
+.form-head h1{
+    font-size: 50px;
+}
+.in-item{
+    height: 35px;
+    border: none;
+    width: 250px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.in-item2{
+    height: 80px;
+    border: none;
+    width: 255px;
+    border-radius: 5px;
+}
+.form-btn{
+    height: 35px;
+    width: 255px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+textarea{
+    resize: none;
+}
+/-------foooter section/
+
+.foot-main{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+.ft-main h1{
+    margin: 0px;
+    padding: 20px;
+}
+.ft-main p{
+    margin: 10px auto;
+    font-size: 10px;
+    color: gray;
+    width: 300px;
+}
+.link a{
+    color: rgb(151, 146, 146);
+    font-size: 12px;
+    margin-left: 20px;
+}
+.link a:hover{
+    color: orange;
+    transition: 0.5s;
 }
